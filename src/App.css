@@ -1,13 +1,15 @@
 .App {
   text-align: center;
+  color: rgb(245, 245, 245);
 }
 
 .week {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .day {
   width: 150px;
+  background-color: rgba(2, 86, 87, 0.336);
   border: 1px solid #333;
 }
