@@ -1,39 +1,39 @@
-import { Cloudy, Rain, Sunny } from "../components/icons/icons";
+import * as Icons from "../components/icons/icons";
 
 export default [
   {
     weekDey: "Monday",
-    imgURL: Cloudy,
+    imgURL: Icons.Cloudy,
     temp: "36C",
   },
   {
     weekDey: "Tuesday",
-    imgURL: Rain,
+    imgURL: Icons.Rain,
     temp: "32C",
   },
   {
     weekDey: "Wednesday",
-    imgURL: Rain,
+    imgURL: Icons.Rain,
     temp: "35C",
   },
   {
     weekDey: "Thursday",
-    imgURL: Sunny,
+    imgURL: Icons.Sunny,
     temp: "45C",
   },
   {
     weekDey: "Friday",
-    imgURL: Cloudy,
+    imgURL: Icons.Cloudy,
     temp: "36C",
   },
   {
     weekDey: "Saturday",
-    imgURL: Rain,
+    imgURL: Icons.Rain,
     temp: "37C",
   },
   {
     weekDey: "Sunday",
-    imgURL: Sunny,
+    imgURL: Icons.Sunny,
     temp: "39C",
   },
 ];
